@@ -8,7 +8,7 @@ Uploaders: Rémi Palancher <remi@rezib.org>,
 Build-Depends:
  debhelper (>= 11),
  libmunge-dev,
- libncurses-dev,
+ libncurses5-dev,
  po-debconf,
  python3,
  libgtk2.0-dev,
@@ -35,8 +35,7 @@ Build-Depends:
  liblz4-dev,
  bash-completion,
  libdbus-1-dev,
- librocm-smi-dev
-Standards-Version: 4.6.2
+Standards-Version: 4.5.1
 Homepage: http://slurm.schedmd.com
 Vcs-Browser: https://salsa.debian.org/hpc-team/slurm-wlm
 Vcs-Git: https://salsa.debian.org/hpc-team/slurm-wlm.git
